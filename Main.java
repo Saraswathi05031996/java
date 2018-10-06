@@ -10,15 +10,15 @@ public class Main
         scan.close();
         if(number > 0)
         {
-            System.out.println("The given number"+n" is positive number");
+            System.out.println("positive");
         }
         else if(number < 0)
         {
-            System.out.println("The given number"+n" is negative number");
+            System.out.println("negative");
         }
         else
         {
-            System.out.println("The given number"+n" is neither positive nor negative");
+            System.out.println("zero");
         }
     }
 }
